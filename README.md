@@ -1,4 +1,5 @@
 This is the Java API to update the category of datasets on Socrata portal using the Socrata Open Data API (SODA).
+
 1) To update the category we we will need list of dataset ids,new category and the type of the dataset i.e tabular
    blob etc
    	 
