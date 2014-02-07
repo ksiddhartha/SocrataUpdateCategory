@@ -13,6 +13,8 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.6</jdk.version>
+		<maven.compiler.source>1.6</maven.compiler.source>
+	   	<maven.compiler.target>1.6</maven.compiler.target>
 	</properties>
 
 	<dependencies>
@@ -196,7 +198,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>gov.nyc.opendata.integration.main.UpdateDataSetCategory</mainClass>
+							<mainClass>gov.nyc.doitt.nycopendataintegration.main.UpdateDataSetCategory</mainClass>
 							<classpathPrefix>lib/</classpathPrefix>
 						</manifest>
 					</archive>
